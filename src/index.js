@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { HashRouter } from 'react-router-dom'; // ✅ Use HashRouter
+import { HashRouter } from 'react-router-dom'; 
 import store from './store/store';
 import App from './App';
 import './output.css'; // Tailwind

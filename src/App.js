@@ -52,7 +52,7 @@ function App() {
           </Link>
 
           {/* Center: Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="flex space-x-8">
             <Link
               to="/"
               className="text-blue-500 hover:text-blue-400 transition-colors"
@@ -112,7 +112,7 @@ function App() {
       {/* Main Content */}
       <main className="px-4 max-w-7xl mx-auto">
         <Routes>
-          <Route path="/" element={<Home />} /> {/* ✅ Home route */}
+          <Route path="/" element={<Home />} /> 
           <Route path="/media" element={<MediaGallery />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/pricing" element={<PricingTable />} />
